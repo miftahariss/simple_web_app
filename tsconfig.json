@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                          // Versi ECMAScript target
+      "module": "commonjs",                     // Sistem modul yang digunakan (CommonJS untuk Node.js)
+      "rootDir": "./src",                       // Direktori root untuk file sumber TypeScript
+      "outDir": "./dist",                       // Direktori output untuk file JavaScript hasil kompilasi
+      "strict": true,                           // Mengaktifkan mode pemeriksaan tipe yang ketat
+      "esModuleInterop": true,                  // Memungkinkan interoperabilitas modul ES6
+      "forceConsistentCasingInFileNames": true, // Mencegah perbedaan casing pada nama file
+      "moduleResolution": "node",               // Resolusi modul menggunakan strategi Node.js
+      "skipLibCheck": true,                     // Mengabaikan pemeriksaan tipe pada file deklarasi library
+      "sourceMap": true                         // Menghasilkan file source map untuk debugging
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+  }
+  
